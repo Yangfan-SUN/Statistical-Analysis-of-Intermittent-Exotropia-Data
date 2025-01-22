@@ -1,4 +1,5 @@
 # Statistical Analysis of Intermittent Exotropia Data
+**Authors:** *Qinglei Shi*, *Yangfan Sun*
 
 ## Project Overview
 
@@ -40,14 +41,8 @@ The main function of this scripts is to process the experimental data and the co
 The main function of this scripts is to process the experimental data and the control group data, calculate the AUC related results under different combination methods (`forward`, `backward`, `bidirection`), and save the final results as CSV files.
 
 ## Dependencies
-The project depends on the following Python libraries:
-- `pandas`
-- `numpy`
-- `sklearn`
-- `matplotlib`
-- `statsmodels`
-- `glob`
-- `os`
+- Python 3.x
+- Libraries: `pandas`, `numpy`, `sklearn`, `matplotlib`, `statsmodels`, `glob`, `os`
 
 ## Usage
 To run the analysis, simply execute the main scripts (`rocs_main.py`, `combine_main.py`, `stepwise_combine_main.py`, `auc_tb_main.py`, or `step_tb_main.py`) using Python. Make sure all the required data files are present in the specified directories.
